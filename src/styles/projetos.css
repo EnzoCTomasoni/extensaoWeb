@@ -1,25 +1,30 @@
 main {
     display: flex;
     flex-direction: row;
-    height: 90vh;  
+    justify-content: center;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;  
 }
 
 .maincontainer {
-    width: 100vw;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;  
     display: flex;
     flex-direction: row;
     background-color: #3e3e3e;
-    padding: 30px;
+    padding: 20px;
     border-radius: 20px;
     gap: 20px;
 }
 
 .projects {
-    width: 30%;
-    padding: 20px;
+    width: 30vw;
+    padding: 15px;
     overflow-y: auto;
     background-color: #5e5e5e;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .projects h2 {
@@ -47,11 +52,11 @@ main {
 }
 
 .images {
-    width: 70%;
-    padding: 20px;
+    width: 45vw;
+    padding: 15px;
     overflow-y: auto;
     background-color: #5e5e5e;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .images h2 {
@@ -62,14 +67,14 @@ main {
 
 .image-gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
+    justify-content: center;
     gap: 10px;
 }
 
 .image-gallery img {
     background-color: #000;
-    max-width: 500px;
-    max-height: 300px;
+    
     object-fit: contain;
     border: 1px solid #ddd;
     border-radius: 5px;
