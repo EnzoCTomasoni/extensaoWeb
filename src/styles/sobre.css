@@ -1,0 +1,40 @@
+.sobre-mim {
+    background-color: #3e3e3e; /* Fundo cinza escuro */
+    color: #fff; /* Texto branco para contraste */
+    padding: 40px;
+    border-radius: 20px; /* Bordas arredondadas */
+    max-width: 1000px; /* Largura máxima da seção */
+}
+
+.sobre-mim h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.sobre-mim .container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.sobre-mim .texto {
+    flex: 2;
+}
+
+.sobre-mim .foto {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd; /* Fundo claro para destaque */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sobre-mim .foto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}

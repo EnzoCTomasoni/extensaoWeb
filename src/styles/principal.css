@@ -1,0 +1,34 @@
+body {
+    padding-top: 100px; /* Espaço para compensar a altura da navbar fixa */
+    height: 100%;
+    margin: 0;
+}
+
+.nav-item a {
+    font-size: 1.25rem; /* Tamanho ajustado */
+    font-weight: 500;
+}
+
+main {
+    padding: 20px 100px;
+    min-height: 80vh;
+    margin: 0;
+    font-family: Arial, sans-serif;  
+}
+
+footer {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-icon {
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer-icon:hover {
+    color: #007bff;
+}

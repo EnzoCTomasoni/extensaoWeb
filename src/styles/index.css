@@ -1,0 +1,95 @@
+.introducao {
+    background: #222;
+    color: #fff;
+    border-radius: 10px;
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 2rem 10%; /* Espaçamento interno */
+    position: relative; /* Necessário para posicionamento do botão */
+  }
+  
+  .introducao h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .introducao p {
+    margin-bottom: 2rem; /* Espaço maior abaixo do texto */
+    font-size: 1rem;
+  }
+  
+  .introducao .botao {
+    background: #0066cc;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align:  center;
+    left: 10%; /* Move o botão para a esquerda */
+    bottom: 10%; /* Coloca o botão mais abaixo da seção */
+  }
+  
+  .botao { 
+    margin-top: 500px;
+  }
+    
+  .projetos {
+    text-align: center;
+    padding: 2rem 0;
+    }
+    
+  .projetos .btn {
+    background: #0066cc;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block; /* Garante comportamento de botão */
+    margin-top: 2rem; /* Adiciona espaço acima do botão */
+    }
+    
+  .projetos h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    }
+    
+  .projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    }
+    
+  .projeto-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    }
+    
+  .projeto-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    }
+    
+  .projeto-card ul {
+    list-style: none;
+    text-align: left;
+    }
+    
+  .projeto-card ul li {
+    margin-bottom: 0.5rem;
+    }
+    
+  .botao {
+    display: inline-block;
+    margin: 2rem auto;
+    background: #0066cc;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    }
