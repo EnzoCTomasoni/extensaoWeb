@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    padding: 20px 100px;
+    padding: 20px 10vw;
     min-height: 80vh;
     margin: 0;
     font-family: Arial, sans-serif;  
