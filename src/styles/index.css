@@ -93,3 +93,37 @@
     border-radius: 5px;
     font-weight: bold;
     }
+    /* Remove decoração de links */
+.link-sem-decoracao {
+  text-decoration: none; /* Remove sublinhado */
+  color: inherit; /* Mantém a cor do texto */
+  display: block; /* Faz o link ocupar toda a área do conteúdo */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Efeito de transição */
+}
+
+/* Efeito ao passar o mouse */
+.link-sem-decoracao:hover {
+  transform: scale(1.03); /* Aumenta ligeiramente o tamanho */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Cursor de clique */
+.link-sem-decoracao {
+  cursor: pointer;
+}
+
+/* Botão personalizado */
+.botao {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
